@@ -4,8 +4,11 @@ import urllib2
 import re
 
 #TODO: url в параметре (запрос ввода) при запуске программы
-#TODO: Найти все <img> теги
-#TODO: Перенести get_page и search_tags в отдельный файл
+#TODO: Написать ф-ю, находящую все <img> теги
+#TODO: получить список URL из списка ссылок
+#TODO: вывести список в окно (Tkinter)
+#TODO: посчитать количество тегов <br> на странице
+#TODO: найти самый длинный URL из списка ссылок
 
 def get_page(url):
     f = urllib2.urlopen(url)
