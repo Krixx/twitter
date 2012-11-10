@@ -1,5 +1,4 @@
-#COMENT
-)#coding: utf8
+#coding: utf8
 import urllib2
 import re
 
