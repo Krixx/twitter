@@ -11,3 +11,4 @@ def search_tags(page):
     template = re.compile(pattern)
     lst = template.findall(page)
     return lst
+#ddd
