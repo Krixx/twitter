@@ -16,7 +16,7 @@ def main():
     lst = search_tags(page)
     print "count of <a> = %s" % len(lst)
     for l in lst:
-        print "a: %s" % (l,)
+        print "a >> %s" % (l,)
 
 if __name__ == '__main__':
     main()
